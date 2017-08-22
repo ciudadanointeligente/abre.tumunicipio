@@ -11,20 +11,20 @@ h1 {
   font-size: 4.5vw;
   letter-spacing: 4px;
   text-transform: uppercase;
-  font-family: $fira-font;
+  font-family: $dosis-font;
 }
 
 h2 {
   letter-spacing: 5px;
   font-size: 3.5vw;
   text-transform: uppercase;
-  font-family: $fira-font;
+  font-family: $dosis-font;
   margin: 2vw 0;
 }
 
 h3 {
   font-size: 30px;
-  font-family: $fira-font;
+  font-family: $dosis-font;
   text-transform: uppercase;
   letter-spacing: 4px;
 }
@@ -45,4 +45,65 @@ h5 {
   font-size: 20px;
   font-weight: normal;
   margin-bottom: 1vw;
+}
+
+p {
+  color: $gray-two;
+  font-size: 16px;
+  margin-bottom: 2vw;
+}
+
+
+// Text color
+
+.line-text {
+  color: $gray-four;
+}
+
+.white {
+  color: white;
+}
+
+.gray {
+  color: $gray-two;
+}
+
+.blue {
+  color: $light-blue;
+}
+
+.orange {
+  color: $orange;
+}
+
+a:hover {
+    color: $orange;
+}
+
+// Background color
+
+.bg-gray {
+    background: $gray-two;
+}
+
+.bg-light-gray {
+  background: $gray-five;
+}
+
+.bg-blue {
+  background: $light-blue;
+}
+
+.bg-blue p {
+  margin: 0;
+}
+
+.bg-orange {
+  background: $orange;
+}
+
+// Menu
+
+.nav-link {
+  color: $gray-two;
 }

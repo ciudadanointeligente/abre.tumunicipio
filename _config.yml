@@ -14,10 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Abre
-email: info@ciudadaniai.org
+email: contacto@ciudadanointeligente.org
 description: Abre es una propuesta de Fundaciónn Ciudadano Inteligente que busca acercar el trabajo de los municipios a la realidad de sus vecinos y poner la colaboración en el centro de la gestión local.
-baseurl: "/abre.tumunicipio" # the subpath of your site, e.g. /blog
-url: "https://ciudadanointeligente.org" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://abre.tumunicipio.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ciudadanoi
 github_username: ciudadanointeligente
 
