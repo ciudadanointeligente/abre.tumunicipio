@@ -1,32 +1,24 @@
-<footer class="site-footer">
+<footer class="bg-blue site-footer">
 
-  <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-            </li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
-        </ul>
-      </div>
+  <div class="row padding">
+    <div class="col-sm-4">
+      <a href="https://ciudadanointeligente.org">
+        <img src="{{ site.baseurl }}/assets/img/logo_FCI.png" class="logo-FCI" alt="Abre home">
+      </a>
+    </div>
 
-      
+    <div class="col-sm-8 text-right">
+      <a href=""> <i class="fa padding-sides white fa-github" aria-hidden="true"></i> </a>
+      <a href=""> <i class="fa white fa-facebook" aria-hidden="true"></i> </a>
+      <a href=""> <i class="fa padding-sides white fa-twitter" aria-hidden="true"></i> </a>
 
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
-      </div>
     </div>
 
   </div>
+
+
+
 
 </footer>
