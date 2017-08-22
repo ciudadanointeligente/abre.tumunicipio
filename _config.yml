@@ -16,8 +16,8 @@
 title: Abre
 email: info@ciudadaniai.org
 description: Abre es una propuesta de Fundaciónn Ciudadano Inteligente que busca acercar el trabajo de los municipios a la realidad de sus vecinos y poner la colaboración en el centro de la gestión local.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ciudadanointeligente.org" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "abre.tumunicipio" # the subpath of your site, e.g. /blog
+url: "https://ciudadanointeligente.org/abre.tumunicipio" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ciudadanoi
 github_username: ciudadanointeligente
 
