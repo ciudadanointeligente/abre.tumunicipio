@@ -20,12 +20,17 @@ body {
   max-width: 200px;
 }
 
+h1 {
+  font-family: $dosis-font;
+  text-transform: uppercase;
+  font-size: 72px;
+  letter-spacing: 4px;
+}
+
 h1.hero {
   font-size: 18px;
   letter-spacing: 2px;
   line-height: 31px;
-  text-transform: uppercase;
-  font-family: $dosis-font;
   margin-bottom: 3vw;
 }
 
@@ -64,6 +69,7 @@ h5 {
   font-size: 20px;
   font-weight: normal;
   margin-bottom: 1vw;
+  line-height: 30px;
 }
 
 p {
@@ -157,7 +163,7 @@ a:hover {
 
 
 .padding {
-  padding: 4vw;
+  padding: 4vw 0;
 }
 
 .padding-sides{
@@ -181,6 +187,11 @@ a:hover {
 
 section {
     padding: 4vw 0;
+}
+
+.text-width {
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 // Hero
@@ -256,4 +267,11 @@ section {
 h2.underscore {
     line-height: 0px;
     margin: 0 0 30px;
+}
+
+// About
+
+#about img {
+    margin-top: -25px;
+    margin-right: 6px;
 }
