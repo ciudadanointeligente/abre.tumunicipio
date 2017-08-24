@@ -167,13 +167,15 @@ section {
 
 .num {
   position: relative;
-  text-align: center;
   margin-top: 10px;
+  font-family: $dosis-font;
+  font-size: 22px;
   &::after {
     content: '_';
     position: absolute;
-    bottom: 20px;
-    right: 43%;
+    top: -5px;
+    right: 17px;
+    font-size: 39px;
   }
 }
 
@@ -223,4 +225,12 @@ section {
 
 .col-xs-12.col-sm-6.col-md-3.col-lg-3:nth-child(4) {
     margin-top: 5vw;
+}
+
+// Benefits
+
+.benefits-icon {
+    text-align: center;
+    margin-bottom: 2vw;
+    height: 60px;
 }
