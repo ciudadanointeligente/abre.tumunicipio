@@ -20,12 +20,18 @@ body {
   max-width: 200px;
 }
 
-h1.hero {
-  font-size: 30px;
-  letter-spacing: 2px;
-  line-height: 46px;
-  text-transform: uppercase;
+h1 {
   font-family: $dosis-font;
+  text-transform: uppercase;
+  font-size: 72px;
+  letter-spacing: 4px;
+}
+
+h1.hero {
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 31px;
+  margin-bottom: 3vw;
 }
 
 h2 {
@@ -63,6 +69,7 @@ h5 {
   font-size: 20px;
   font-weight: normal;
   margin-bottom: 1vw;
+  line-height: 30px;
 }
 
 p {
@@ -116,6 +123,10 @@ hr {
   color: $orange;
 }
 
+.green {
+  color: $green;
+}
+
 a:hover {
     color: $orange;
 }
@@ -152,7 +163,7 @@ a:hover {
 
 
 .padding {
-  padding: 4vw;
+  padding: 4vw 0;
 }
 
 .padding-sides{
@@ -160,21 +171,27 @@ a:hover {
   padding-right: 3vw;
 }
 
-section {
-  padding-right: 5vw;
-  padding-left: 5vw;
-}
-
 .num {
   position: relative;
-  text-align: center;
   margin-top: 10px;
+  font-family: $dosis-font;
+  font-size: 22px;
   &::after {
     content: '_';
     position: absolute;
-    bottom: 20px;
-    right: 43%;
+    top: -5px;
+    right: 17px;
+    font-size: 39px;
   }
+}
+
+section {
+    padding: 4vw 0;
+}
+
+.text-width {
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 // Hero
@@ -217,10 +234,44 @@ section {
   padding-left: 0;
 }
 
-.col-md-3.col-xs-6:nth-child(2) {
+.col-xs-12.col-sm-6.col-md-3.col-lg-3:nth-child(2) {
     margin-top: 10vw;
 }
 
-.col-md-3.col-xs-6:nth-child(4) {
+.col-xs-12.col-sm-6.col-md-3.col-lg-3:nth-child(4) {
     margin-top: 5vw;
+}
+
+// Benefits
+
+.benefits-icon {
+    text-align: center;
+    margin-bottom: 2vw;
+    height: 60px;
+}
+
+// Testimonials
+
+.testimonial-img {
+    width: 96px;
+    margin: 0 auto 2vw;
+    position: relative;
+    &::after {
+      content: url('../img/quote.svg');
+      position: absolute;
+      bottom: -13px;
+      left: 37px;
+    }
+}
+
+h2.underscore {
+    line-height: 0px;
+    margin: 0 0 30px;
+}
+
+// About
+
+#about img {
+    margin-top: -25px;
+    margin-right: 6px;
 }
