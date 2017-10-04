@@ -31,16 +31,10 @@ a span {
 h1 {
   font-family: $dosis-font;
   text-transform: uppercase;
-  font-size: 72px;
+  font-size: 36px;
   letter-spacing: 4px;
   font-weight: bold;
-}
-
-h1.hero {
-  font-size: 18px;
-  letter-spacing: 2px;
-  line-height: 31px;
-  margin-bottom: 3vw;
+  line-height: 50px;
 }
 
 h2 {
@@ -200,6 +194,19 @@ section {
 }
 
 // Hero
+
+#hero {
+  position: relative;
+}
+
+.hero-content {
+  position: absolute;
+  top: 35%;
+  left: 10vw;
+  max-width: 770px;
+}
+
+// Stages
 
 .box {
   padding: 25px;
