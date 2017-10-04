@@ -200,8 +200,9 @@ section {
 
 // Hero
 
-#hero {
+section#hero {
   position: relative;
+  padding: 0;
 }
 
 .hero-content {
@@ -209,6 +210,26 @@ section {
   top: 35%;
   left: 10vw;
   max-width: 770px;
+}
+
+// What
+
+.what-box:nth-child(1) {
+    margin-left: -15px;
+    padding: 2vw;
+}
+
+.what-box:nth-child(2) {
+    margin-right: -15px;
+    padding: 2vw;
+}
+
+.whatimg-box:nth-child(1) {
+    margin-left: -15px;
+}
+
+.whatimg-box:nth-child(2) {
+    margin-right: -15px;
 }
 
 // Stages
