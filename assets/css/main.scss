@@ -53,6 +53,7 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 4px;
   font-weight: bold;
+  line-height: 41px;
 
   a {
     color: $light-blue;
@@ -95,6 +96,9 @@ p {
   color: $gray-one;
 }
 
+.small .fa-minus {
+    vertical-align: bottom;
+}
 
 hr {
     border-bottom: 1px solid #E1EAF7;
@@ -185,7 +189,7 @@ hr {
 }
 
 section {
-    padding: 4vw 0;
+    padding: 5vw 0;
 }
 
 .text-width {
@@ -214,22 +218,8 @@ section#hero {
 
 // What
 
-.what-box:nth-child(1) {
-    margin-left: -15px;
-    padding: 2vw;
-}
-
-.what-box:nth-child(2) {
-    margin-right: -15px;
-    padding: 2vw;
-}
-
-.whatimg-box:nth-child(1) {
-    margin-left: -15px;
-}
-
-.whatimg-box:nth-child(2) {
-    margin-right: -15px;
+.no-gutters>[class*=col-].what-box {
+  padding: 8vw 5vw;
 }
 
 // Stages
@@ -303,11 +293,50 @@ h2.underscore {
     margin: 0 0 30px;
 }
 
+#testimonios {
+  background: $gray-five;
+  position: relative;
+  &:before {
+    content: url(../img/bg-gray-before.svg);
+    position: absolute;
+    top: -77px;
+    left: 0px;
+  }
+  &:after {
+    content: url(../img/bg-gray-after.svg);
+    position: absolute;
+    bottom: -77px;
+    left: 0px;
+  }
+}
+
 // About
 
 #about img {
     margin-top: -25px;
     margin-right: 6px;
+}
+
+// Contact
+
+#contact {
+  position: relative;
+  margin-bottom: 7vw;
+  &:before {
+    content: url(../img/bg-orange-before.svg);
+    position: absolute;
+    top: -77px;
+    left: 0;
+  }
+  &:after {
+    content: url(../img/bg-orange-after.svg);
+    position: absolute;
+    bottom: -77px;
+    left: 0;
+  }
+  & a {
+    color: white;
+  }
 }
 
 // Media queries
