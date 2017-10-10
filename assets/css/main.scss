@@ -296,6 +296,7 @@ h2.underscore {
 #testimonios {
   background: $gray-five;
   position: relative;
+  overflow: hidden;
   &:before {
     content: url(../img/bg-gray-before.svg);
     position: absolute;
@@ -322,6 +323,7 @@ h2.underscore {
 #contact {
   position: relative;
   margin-bottom: 7vw;
+  overflow: hidden;
   &:before {
     content: url(../img/bg-orange-before.svg);
     position: absolute;
