@@ -198,7 +198,7 @@ section {
 }
 
 .bajada {
-    color: $gray-three;
+    color: $gray-two;
     margin-bottom: 6vw;
 }
 
@@ -343,7 +343,31 @@ h2.underscore {
 
 // Media queries
 
+@media only screen and (max-device-width:320px) {
+  h1 {
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 36px;
+  }
+
+  h5 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .hero-content {
+    top: 9%;
+  }
+
+  .w-100 {
+    height: 360px;
+    width: auto!important;
+  }
+
+}
+
 @media only screen and (max-device-width:768px) {
+
 
   h3 {
       font-size: 17px;

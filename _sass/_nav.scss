@@ -59,6 +59,10 @@ Primary style
 		.cd-auto-hide-header .logo a span {
 			display: none;
 		}
+
+		.cd-auto-hide-header {
+			position: relative;
+		}
 }
 
 .cd-auto-hide-header .nav-trigger {
