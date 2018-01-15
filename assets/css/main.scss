@@ -156,6 +156,18 @@ hr {
   background-color: $gray-one;
 }
 
+// Buttons
+
+.btn-primary {
+    color: #fff;
+    background-color: $gray-one;
+    border-color: transparent;
+    &:hover {
+      background-color: $gray-two;
+      border-color: transparent;
+    }
+}
+
 // Menu
 
 .nav-link {
@@ -292,13 +304,12 @@ section#hero {
   transform: translateX(0);
 }
 
-#clients h3 {
-  margin-bottom: calc(1rem + 3vw);
+#clients h2 {
+    margin-bottom: calc(2rem + 1vw);
 }
 
-#clients {
-    background: $green;
-    color: white;
+.clients-carousel {
+  margin-bottom: calc(2rem + 1vw);
 }
 
 // Testimonials
